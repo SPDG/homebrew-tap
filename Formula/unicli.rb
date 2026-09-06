@@ -16,7 +16,6 @@ class Unicli < Formula
       define_method(:install) do
         bin.install "unicli"
         bin.install "unicli-mcp"
-        bin.install "unicli-mcp"
       end
     end
     if Hardware::CPU.arm?
@@ -25,7 +24,6 @@ class Unicli < Formula
 
       define_method(:install) do
         bin.install "unicli"
-        bin.install "unicli-mcp"
         bin.install "unicli-mcp"
       end
     end
@@ -38,7 +36,6 @@ class Unicli < Formula
       define_method(:install) do
         bin.install "unicli"
         bin.install "unicli-mcp"
-        bin.install "unicli-mcp"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
@@ -46,7 +43,6 @@ class Unicli < Formula
       sha256 "0c80149b6594b70a6044dc9f3815c01948804c31d86342e3195fcba3c0837b43"
       define_method(:install) do
         bin.install "unicli"
-        bin.install "unicli-mcp"
         bin.install "unicli-mcp"
       end
     end
